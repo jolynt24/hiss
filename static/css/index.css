@@ -1,0 +1,16 @@
+body {
+    background-color: #809FFF;
+    overflow: hidden;
+}
+
+#verse {
+    background-color: #DAF0FF;
+    border: 8px solid #001247;
+    border-radius: 5px;
+    margin: 25%;
+    text-align: center;
+}
+
+#verse h4{
+    color: #001247;
+}

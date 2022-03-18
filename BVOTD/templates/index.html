@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+</head>
+ 
+<body>
+    <div id="verse">
+        <h4>Verse of the day</h4>
+        <h2>{{verse[0]}} {{verse[1]}}:{{verse[2]}}</h2>
+    </div>
+</body>
+ 
+</html>
